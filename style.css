@@ -165,3 +165,16 @@ form input+button {
     font-size: 2.4rem;
     cursor: pointer;
 }
+
+.text {
+    font-size: 1.4rem;
+    margin: 1rem; 
+    text-align: center;        
+}
+
+.text p {
+    color: #ff5678;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
