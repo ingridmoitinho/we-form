@@ -72,3 +72,136 @@ p {
     color:#ff5678;
     margin-right: 12rem;     
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;      
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h1 span {
+    color: #ff5678;
+}
+
+.main {
+    height: 50rem;
+    width: 60rem;
+}
+
+.main h2 {
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+}
+
+.entidades div {
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;  
+    height: 6rem;
+    gap: 1rem;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgba(121, 121, 121, 0.226);
+}
+
+p {
+    font-size: 1.5rem;    
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.entidades span {
+    border: 1px solid #35e6e9;
+    color: #35e6e9;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    border-radius: 1.2rem;  
+    cursor: pointer;
+    margin-left: 2rem;   
+}
+
+.entidades a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color:#ff5678;
+    margin-right: 12rem;     
+}
+
+@media (max-width: 768px) {
+  
+    h1 {
+        font-size: 4rem;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .main h2 {
+        font-size: 2.4rem;        
+    }
+
+    .entidades div {
+        width: 70%;        
+        height: 50%;        
+    }
+
+    .entidades span {
+        margin-left: 0;
+        padding: 1rem 2rem;
+    }
+
+    .entidades a {
+        margin-right: 0;
+    }   
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .main h2 {
+        font-size: 2rem;
+    }
+
+    .entidades div {
+        padding: 1rem;
+    }
+
+    .entidades span {
+        padding: 0.8rem 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .entidades a {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+
+
